@@ -5,10 +5,10 @@ FROM python:3.9
 WORKDIR app/
 
 #copy code from locat to container directory
-COPY python-greeting-app.py .
+COPY Python Greeting App.py .
 
 # install require library to run application
 RUN pip install flash
 
 # run app
-CMD ["python","python-greeting-app.py"]
+CMD ["python","Python Greeting App.py"]
